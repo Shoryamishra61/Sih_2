@@ -1,0 +1,77 @@
+---
+alwaysApply: false
+---
+# NutriVeda Development Rules (SIH 2025)
+
+## Core Identity
+- Always use the name **NutriVeda** across UI, backend, and docs.
+- Project is an **AI-powered Ayurvedic Nutrition Platform** (dual-principle: Modern + Ayurvedic).
+- Messaging must reflect:
+  1. Dual-Principle Analytics (Modern + Ayurvedic).
+  2. AI-powered constitutional meal planning.
+  3. Ayurveda-compliant nutrition SaaS.
+
+---
+
+## Tech Stack (Strict)
+- **Frontend**: React.js (greenish Ayurvedic theme, strict dark mode).
+- **Backend**: Node.js.
+- **Databases**:
+  - PostgreSQL → Food Database (8,000+ items).
+  - MongoDB → Patient Profiles.
+- **Deployment**: AWS + Docker (mock deploy allowed).
+- **Security**: Simulate end-to-end encryption + HIPAA compliance.
+
+---
+
+## MVP Must-Have Features
+1. **Diet Plan Generator**
+   - Prescription Upload (OCR → structured diet chart).
+   - Patient profile–based meal generation.
+   - Weekly, Monthly, Quarterly charts (3 meals/day).
+   - Export to PDF + Excel (with branding).
+
+2. **Patient Management Hub**
+   - Add/Edit patient profiles with health parameters.
+   - Dashboard for overview.
+
+3. **Food Database Access**
+   - Use mock integration with 8,000+ Ayurvedic + modern foods.
+   - Search + select food items.
+
+4. **Dual-Principle Analysis Engine**
+   - Validate meals against Modern Nutrition + Ayurvedic rules.
+   - Show ✅ / ⚠️ compatibility markers.
+
+---
+
+## UI/UX Rules
+- Theme: Green Ayurvedic palette (light + dark mode support).
+- No broken buttons or placeholders.
+- Follow reference pitch deck visuals strictly.
+- Exported reports (PDF, Excel) must look professional with clinic branding.
+
+---
+
+## Development Workflow
+- Build **one feature at a time** → finish → refine → test → demo.
+- After each feature, **QA on Dashboard + Diet Generator + Patient Hub + Export**.
+- Delete unused/broken code immediately.
+- Commit only working code with clear messages.
+
+---
+
+## Demo Flow Alignment
+- Practitioner login → Patient Profile → Diet Generator → PDF/Excel Export.
+- Always keep this demo path working and polished.
+- Mock backend data allowed, but **frontend must always be production-ready**.
+
+---
+
+## Golden Rules
+- **NutriVeda is never just a diet app** → it is a dual-principle Ayurvedic + Modern nutrition platform.
+- **Frontend > Backend** for MVP — judges see the demo, not database depth.
+- No loose ends: if it’s in UI, it must work.
+- Always keep pitch deck and demo aligned.
+
+
